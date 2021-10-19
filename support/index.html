@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telphone=no, email=no" />
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="MobileOptimized" content="320">
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-orientation" content="portrait">
+    <meta name="full-screen" content="yes">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="browsermode" content="application">
+    <meta name="x5-page-mode" content="app">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/global.css" />
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <title>柠檬电影</title>
+</head>
+
+<body>
+    <div class="banxin">
+        <div class="app_logo center-block margin-bottom60" style="padding-top: 40px">
+            <img src="images/icon_120x120.png" width="80" height="80" alt="" />
+        </div>
+        <div class="desp">
+            <p style="font-size: 20px;padding-bottom: 10px;">应用介绍</p>
+            <div class="dsp margin-bottom60">
+                <section>
+                    “柠檬电影”搜集互联网最新电影，免费提供无广告在线观看，及时收录最新、最热、最全的电影大片
+                </section>
+            </div>
+        </div>
+        <div class="desp">
+            <p style="font-size: 20px;padding-bottom: 10px;">应用声明</p>
+            <div class="dsp margin-bottom60">
+                <section>
+                    本App所有资源来源于第三方，天天电影无权增加、修改、删除，不对影片播放的可靠性负责，影片中出现的任何广告都属于第三方资源提供方设置及制作，并且可能存在虚假或不良信息，请不要相信，以免上当受骗。
+                    <br>
+                    <br> 本App是基于第三方公开接口的搜索引擎展示，应用并未存储任何音视频资源，所有展示内容皆是搜索引擎检索结果。
+                    <br>
+                    <br> 本App以非人工检索方式，根据用户键入或选择的关键字自动发送至第三方网站查询检索，任何通过使用本App展示和搜索的资源均系他人制作或提供，您可能从第三方提供的资源看到或获得相关服务，跟本App均无任何关系。
+                    <br>
+                    <br> 本App所有可浏览和搜索到的资源均来自第三方提供的公开引用资源，所有视频及图片版权均归原作者及网站所有，本应用不存储、不制作、不上传。
+                    <br>
+                    <br> 本App没有数据服务器，仅有用于应用更新检查的静态空间。
+                    <br>
+                    <br> 若本App无意侵犯了您的权利，请留言，我们会及时处理和回复。
+                    <br>
+                    <br> 本App仅为学习与测试之用，日常请使用正版视频软件，支持正版人人有责。
+                    <br>
+                </section>
+            </div>
+        </div>
+        <div>
+            <p style="font-size: 20px;padding-bottom: 10px;">应用截图</p>
+            <div class="table-responsive">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div style="">
+                                    <img src="images/screen1.jpg">
+                                </div>
+                            </td>
+                            <td>
+                                <div style="">
+                                    <img src="images/screen2.jpg">
+                                </div>
+                            </td>
+                            <td>
+                                <div style="">
+                                    <img src="images/screen3.jpg">
+                                </div>
+                            </td>
+                            <td>
+                                <div style="">
+                                    <img src="images/screen4.jpg">
+                                </div>
+                            </td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="wxtip" id="JweixinTip">
+        <span class="wxtip-icon"></span>
+        <p class="wxtip-txt">Click on the upper right corner
+            <br>Choose to open in other browsers</p>
+    </div>
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="http://www.bmob.cn/themes/2016-3/static/js/frontend/websitebase.js"></script>
+    <script type="text/javascript">
+    function fun(a) {
+        a.onclick = function(e) {
+            var ua = navigator.userAgent.toLowerCase();
+            if (ua.match(/MicroMessenger/i) == "micromessenger") {
+                window.event ? window.event.returnValue = false : e.preventDefault();
+                document.getElementById('JweixinTip').style.display = 'block';
+                document.getElementById('JweixinTip').onclick = function() {
+                    this.style.display = 'none';
+                }
+                return true;
+            } else {
+
+            }
+        }
+    }
+    if (document.getElementById("wx_btn1")) {
+        fun(document.getElementById("wx_btn1"));
+    }
+    if (document.getElementById("wx_btn2")) {
+        fun(document.getElementById("wx_btn2"));
+    }
+
+    var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F8bd127f03a0fb66b134fe06b676f0dfc' type='text/javascript'%3E%3C/script%3E"));
+    var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fb38f059c148ad1aa4d0fc03a170a5561' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+</body>
+
+</html>
