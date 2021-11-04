@@ -1,15 +1,19 @@
 {
-  "version": "1.0.0",
+  "version": "1.4.1",
   "update": {
-    "version": "1.0",
+    "version": "1.4",
     "message": ""
   },
   "live_m3u8s": [
     ".mu3u8",
     ".mp4",
-    "play.php"
+    "play.php",
+    "bplayer.php"
   ],
-  "channel_url": "https://iptv222.com/",
+  "replaced_http_enabled": 1,
+  "replace_http_from": "https://",
+  "replace_http_to": "http://",
+  "channel_url": "https://www.iptv222.com/",
   "excluded_channels": [
     "其他",
     "咪咕视频",
@@ -20,23 +24,15 @@
     "黑龍江移動IPTV",
     "IPv6网络电视(限IPv6)"
   ],
+  "direct_sub_channels": [
+    "AAA"
+  ],
+  "search_hint_text": "搜索电视节目",
   "review": 0,
-  "announce": {
-    "show": "1",
-    "title": "欢迎使用天天电影",
-    "contents": [
-      {
-        "content": "本App所有资源"
-      },
-      {
-        "content": "来源于第三方搜索引擎，天天电影无权增加、修改、删除任何信息。\n\n",
-        "highlight": "1"
-      },
-      {
-        "content": "本App是基于第三方公开接口的搜索引擎展示，所有展示内容皆是搜索引擎检索结果。\n\n本App以非人工检索方式，根据用户键入或选择的关键字自动发送至第三方网站查询检索，任何通过使用本App展示和搜索的资源均系他人制作或提供，所有视频及图片版权均归原作者及网站所有，本应用不存储、不制作、不上传。\n\n本App没有数据服务器，仅有用于应用更新检查的静态空间。\n\n若本App无意侵犯了您的权利，请留言，我们会及时处理和回复。\n\n本App仅为学习与测试之用，日常请使用正版视频软件，支持正版人人有责。"
-      }
-    ],
-    "button": "我知道了"
+  "buffering_timeout": 15,
+  "channel_icons": {
+    "電影": "https://winteryu56.github.io/zhibo/logo/film.png"
   },
-  "buffering_timeout": 10
+  "sub_channel_icons": {
+  }
 }
