@@ -1,28 +1,31 @@
 {
-  "version": "1.4.1",
+  "version": "1.5.1",
   "update": {
-    "version": "1.4",
-    "message": ""
+    "version": "1.5",
+    "message": "修复了一些节目频道无法播放的问题"
   },
   "live_m3u8s": [
     ".mu3u8",
     ".mp4",
     "play.php",
-    "bplayer.php"
+    "bplayer.php",
+    "vplay.php"
   ],
+  "hack_way_enabled": 1,
+  "home_url": "https://player.ggiptv.com/iptva.php?app=136",
+  "programme_url": "https://player.ggiptv.com/iptv.php",
+  "base_url": "https://player.ggiptv.com/",
+  "user_agent": "Mozilla/5.0 (Linux; Android [version.release]; [model] Build/[id]; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045714 Mobile Safari/537.36 MicroMessengeriptv/1.3.6 VideoPlayer Html5Plus/1.0",
   "replaced_http_enabled": 1,
   "replace_http_from": "https://",
   "replace_http_to": "http://",
   "channel_url": "https://www.iptv222.com/",
+  "replaced_js": "function vstPlay()",
+  "find_js_from": "src:",
+  "find_js_to": ",",
   "excluded_channels": [
-    "其他",
-    "咪咕视频",
-    "北方IPTV",
-    "广西联通IPTV",
-    "北京教育网IPTV",
-    "福建移動IPTV",
-    "黑龍江移動IPTV",
-    "IPv6网络电视(限IPv6)"
+    "短视频",
+    "其他"
   ],
   "direct_sub_channels": [
     "AAA"
@@ -31,8 +34,15 @@
   "review": 0,
   "buffering_timeout": 15,
   "channel_icons": {
-    "電影": "https://winteryu56.github.io/zhibo/logo/film.png"
+    "电影": "https://winteryu56.github.io/zhibo/logo/film.png"
   },
   "sub_channel_icons": {
+  },
+  "sub_channel_icons_converted": {
+    "CCTV1HD": "CCTV1综合高清",
+    "CCTV2HD": "CCTV2财经高清",
+    "凤凰卫视中文台":"凤凰卫视中文",
+    "凤凰卫视资讯台":"凤凰卫视资讯",
+    "凤凰香港台":"凤凰香港高清"
   }
 }
