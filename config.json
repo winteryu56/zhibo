@@ -1,5 +1,5 @@
 {
-  "version": "1.5.1",
+  "version": "1.5.2",
   "update": {
     "version": "1.5",
     "message": "修复了一些节目频道无法播放的问题"
@@ -41,6 +41,21 @@
   "sub_channel_icons_converted": {
     "CCTV1HD": "CCTV1综合高清",
     "CCTV2HD": "CCTV2财经高清",
+    "CCTV3HD": "CCTV3综艺高清",
+    "CCTV4HD": "CCTV4中文国际高清",
+    "CCTV5HD": "CCTV5体育高清",
+    "CCTV5+": "CCTV5+体育赛事高清",
+    "CCTV6HD": "CCTV6电影高清",
+    "CCTV7HD": "CCTV7国防军事高清",
+    "CCTV8HD": "CCTV8电视剧高清",
+    "CCTV9HD": "CCTV9纪录高清",
+    "CCTV10HD": "CCTV10科教高清",
+    "CCTV11HD": "CCTV11戏曲高清",
+    "CCTV12HD": "CCTV12社会与法高清",
+    "CCTV13": "CCTV13新闻高清",
+    "CCTV14HD": "CCTV14少儿高清",
+    "CCTV15HD": "CCTV15音乐高清",
+    "CCTV17HD": "CCTV17农业农村高清",
     "凤凰卫视中文台":"凤凰卫视中文",
     "凤凰卫视资讯台":"凤凰卫视资讯",
     "凤凰香港台":"凤凰香港高清"
