@@ -1,5 +1,5 @@
 {
-  "version": "1.6.3",
+  "version": "1.6.4",
   "update": {
     "version": "1.6",
     "message": "修复了一些节目频道无法播放的问题"
@@ -25,7 +25,8 @@
   "find_js_to": ",",
   "excluded_channels": [
     "短视频",
-    "其他"
+    "其他",
+    "电影"
   ],
   "direct_sub_channels": [
     "AAA"
