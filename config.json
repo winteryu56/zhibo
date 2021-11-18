@@ -1,5 +1,5 @@
 {
-  "version": "1.6.4",
+  "version": "1.6.5",
   "update": {
     "version": "1.6",
     "message": "修复了一些节目频道无法播放的问题"
