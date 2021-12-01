@@ -1,5 +1,5 @@
 {
-  "version": "1.6.5",
+  "version": "1.6.6",
   "update": {
     "version": "1.6",
     "message": "修复了一些节目频道无法播放的问题"
@@ -24,6 +24,7 @@
   "find_js_from": "src:",
   "find_js_to": ",",
   "excluded_channels": [
+    "热点新闻"
     "短视频",
     "其他",
     "电影"
