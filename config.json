@@ -1,7 +1,7 @@
 {
-  "version": "1.6.8",
+  "version": "2.0.1",
   "update": {
-    "version": "1.6",
+    "version": "2.0",
     "message": "修复了一些节目频道无法播放的问题"
   },
   "live_m3u8s": [
@@ -11,6 +11,10 @@
     "bplayer.php",
     "vplay.php"
   ],
+  "live_radios": [
+    "64k.mp3"
+  ],
+  "live_radio_src": "var elements = document.getElementsByClassName(\"btn\");elements[0].click();",
   "hack_way_enabled": 1,
   "home_url": "https://player.ggiptv.com/iptva.php?app=136",
   "programme_url": "https://player.ggiptv.com/iptv.php",
@@ -57,9 +61,9 @@
     "CCTV-14FHD,CCTV14HD,CCTV-14少儿HD,CCTV-14少儿,CCTV-14高清,CCTV-14少儿高清,CCTV-14,CCTV-14高清8M": "CCTV14少儿高清",
     "CCTV15HD,CCTV-15音乐,CCTV-15高清,CCTV-15,CCTV15": "CCTV15音乐高清",
     "CCTV17HD,CCTV17农业农村高清4M,CCTV-17农业农村,CCTV-17高清,CCTV-17农业农村高清": "CCTV17农业农村高清",
-    "凤凰卫视中文台":"凤凰卫视中文",
-    "凤凰卫视资讯台":"凤凰卫视资讯",
-    "凤凰香港台":"凤凰香港高清",
+    "凤凰卫视中文台": "凤凰卫视中文",
+    "凤凰卫视资讯台": "凤凰卫视资讯",
+    "凤凰香港台": "凤凰香港高清",
     "湖南卫视FHD,湖南卫视HD,湖南卫视,湖南卫视高清8M": "湖南卫视高清",
     "北京卫视FHD,北京卫视HD,北京卫视,北京卫视高清8M": "北京卫视高清",
     "东方卫视FHD,东方卫视HD,东方卫视,东方卫视高清8M": "东方卫视高清",
